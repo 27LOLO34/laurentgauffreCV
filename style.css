@@ -48,7 +48,7 @@ button:hover {
     }
 
     .container, img {
-        flex: 100%;
-        max-width: 100%;
+        flex: 300px;
+        max-width: 300px;
     }
 }
