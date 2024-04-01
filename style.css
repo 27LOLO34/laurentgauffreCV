@@ -42,4 +42,13 @@ button:hover {
     transform: scale(0.9);
 }
 
+@media screen and (max-width: 600px) {
+    section {
+        flex-direction: column;
+    }
 
+    .container, img {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
